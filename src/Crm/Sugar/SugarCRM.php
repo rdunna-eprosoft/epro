@@ -14,7 +14,6 @@ class SugarCRM extends CrmBase
 {
     public function login($username, $password, array $options)
     {
-        // TODO: Implement login() method.
-        die("TODO");
+        throw new \Exception(Yii::t('yii', 'TODO'));
     }
 }

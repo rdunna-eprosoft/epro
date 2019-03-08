@@ -28,7 +28,7 @@ class SalesforceCRM extends CrmBase
             )
         );
         if (empty($this->login["access_token"])) {
-            throw new ForbiddenHttpException(Yii::t('yii', 'Invalid CRM login details.'));
+            throw new Exception('Invalid CRM login details.');
         }
         return $this;
     }
