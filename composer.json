@@ -2,7 +2,7 @@
     "name": "epro/sdk",
     "description": "CRM integration package",
     "keywords": ["crm", "sfdc", "salesforce"],
-    "license": "Eprosoft",
+    "license": "BSD-Source-Code",
     "authors": [
         {
             "name": "Karthik Dunna",
