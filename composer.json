@@ -1,0 +1,24 @@
+{
+    "name": "epro/crm",
+    "description": "CRM integration package",
+    "keywords": ["crm", "sfdc", "salesforce"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Karthik Dunna",
+            "email": "rdunna@eprosoft.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Epro\\": "src/"
+        }
+    }
+}
